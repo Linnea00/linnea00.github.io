@@ -4,7 +4,7 @@
 }
 
 ul, ol {
-  list-style: none;
+  list-style-type: none;
 }
 
 a {
@@ -15,19 +15,22 @@ body {
   margin: 0;
 }
 
+.container {
+  margin: auto;
+  width: 90%;
+  max-width: 1140px;
+}
+
 header {
   background-color: #b5cdc4;
 }
 
 header > .container > h1 {
   padding-top: 20px;
-  color: #008F8F;
 }
 
-.container {
-  margin: auto;
-  width: 80%;
-  max-width: 1140px;
+header > .container > h1 > a {
+  color: #008F8F;
 }
 
 header > .container > nav > ul {
@@ -71,16 +74,49 @@ header > .container > nav > ul > li > a {
 }
 
 .col-3 {
-  width: calc(100%/3 - 20px);
+  width: calc(100% / 4 - 20px);
   margin: 0px 10px 40px 10px;
 }
 
 .col-4 {
-  width: calc(100%/4 - 20px);
+  width: calc(100% / 3 - 20px);
   margin: 0px 10px 40px 10px;
 }
 
 .col-6 {
-  width: calc(100%/6 - 20px);
+  width: calc(100% / 2 - 20px);
   margin: 0px 10px 40px 10px;
+}
+
+.title a {
+  color: #6b8c89;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.date {
+  color: #008F8F;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 60px auto 30px auto;
+}
+
+footer {
+  background: #008F8F;
+  padding: 40px 0 40px 0;
+}
+
+dt {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+dd {
+  margin-bottom: 4px;
+}
+
+dd > a {
+  color: #fbfcfc;
 }
