@@ -21,6 +21,7 @@ header {
 
 header > .container > h1 {
   padding-top: 20px;
+  color: #008F8F;
 }
 
 .container {
@@ -42,10 +43,6 @@ header > .container > nav > ul > li > a {
   color: #008F8F;
   font-size: 1.2em;
   letter-spacing: 2px;
-}
-
-header h1 {
-  color: #008F8F;
 }
 
 .img-fluid {
