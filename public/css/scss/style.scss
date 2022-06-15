@@ -1,32 +1,38 @@
 $primary-color:#008F8F;
-*{ margin:0;
-padding: 0;
+
+*{ 
+    margin: 0;
+    padding: 0;
 }
+
 ul,ol{
-    list-style: none;
+    list-style-type: none;
 }
 a{
     text-decoration: none;
 }
 body{
-    margin:0;
+    margin: 0;
 }
+.container{
+    margin: auto;
+    width: 90%;
+    max-width: 1140px;
+    // background-color: rgb(147, 200, 182);
+}
+// 頁首
 
 header{
 background-color: rgb(181, 205, 196);
 }
 header>.container>h1{
     padding-top: 20px;
-    color: #008F8F;
 }
-.container{
-    margin: auto;
-    // background-color: rgb(147, 200, 182);
-    width: 80%;
-    max-width: 1140px;
+header>.container>h1>a{
+   color: $primary-color;
 }
 header>.container>nav>ul{
-display: flex;
+    display: flex;
 // justify-content: space-between;
 }
 header>.container>nav>ul>li{
@@ -69,22 +75,52 @@ border-radius: 8px;
 
 // 四欄式
 .col-3{
-    width:calc(100%/3 - 20px);
+    width:calc(100% / 4 - 20px);
     margin: 0px 10px 40px 10px;
     // 上右下左
     
 }
 // 三欄式
 .col-4{
-    width:calc(100%/4 - 20px);
+    width:calc(100% / 3 - 20px);
     margin: 0px 10px 40px 10px;
     // 上右下左
     
 }
 // 兩欄式
 .col-6{
-    width:calc(100%/6 - 20px);
+    width:calc(100% / 2 - 20px);
     margin: 0px 10px 40px 10px;
     // 上右下左
     
 }
+
+.title a{
+    color: rgb(107, 140, 137);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.date{
+color: $primary-color;
+}
+h2{
+    font-size: 2em;
+    margin: 60px auto 30px auto;
+}
+
+    // 頁尾
+    footer{
+        background: $primary-color;
+        padding: 40px 0 40px 0;
+    }
+
+    dt{
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+    dd{
+        margin-bottom: 4px;
+    }
+    dd>a{
+        color:  rgb(251, 252, 252);
+    }
