@@ -1,6 +1,37 @@
-body{
-    background-color: bisque;
+* {
+  margin: 0;
+  padding: 0;
 }
-h1{
-    color: aquamarine;
+
+ul, ol {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+}
+
+header > .container > h1 {
+  padding-top: 20px;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  max-width: 1140px;
+}
+
+header > .container > nav > ul {
+  display: flex;
+}
+
+header > .container > nav > ul > li {
+  margin-right: 30px;
+}
+
+header > .container > nav > ul > li > a {
+  line-height: 60px;
+  color: #008F8F;
+  font-size: 1.2em;
+  letter-spacing: 2px;
 }
