@@ -37,17 +37,56 @@ header>.container>nav>ul>li>a{
     font-size: 1.2em;
     letter-spacing: 2px;
 }
+header h1{
+    color: #008F8F;
+}
 // // ＝＝＝＝＝＝＝＝
 // 內容區塊
 // ＝＝＝＝＝＝＝＝＝
+
+// 圖片相關
 .img-fluid{
     width: 100%;
 }
+.img-rounded{
+border-radius: 8px;
+}
+.img-circle{
+    border-radius: 100%;
+    }
+// 區塊相關
 .row{
     display: flex;
     flex-wrap: wrap;
     // 換行
 }
+// 文字相關
+.text-center{
+    text-align: center;
+}
+.text-justify{
+    text-align: justify;
+}
+// 區塊相關
+
+// 四欄式
+.col-3{
+    width:calc(100%/3 - 20px);
+    margin: 0px 10px 40px 10px;
+    // 上右下左
+    
+}
+// 三欄式
 .col-4{
-    width: 33.33333%;
+    width:calc(100%/4 - 20px);
+    margin: 0px 10px 40px 10px;
+    // 上右下左
+    
+}
+// 兩欄式
+.col-6{
+    width:calc(100%/6 - 20px);
+    margin: 0px 10px 40px 10px;
+    // 上右下左
+    
 }
