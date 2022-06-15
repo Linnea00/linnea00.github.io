@@ -5,13 +5,15 @@ padding: 0;
 ul,ol{
     list-style: none;
 }
-
+a{
+    text-decoration: none;
+}
 body{
     margin:0;
 }
 
 header{
-    // background-color: rgb(145, 203, 217);
+background-color: rgb(172, 202, 191);
 }
 header>.container>h1{
     padding-top: 20px;
