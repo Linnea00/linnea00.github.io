@@ -102,7 +102,7 @@ border-radius: 8px;
     
 }
 .col-9{
-    width:calc(100% / 1.333333 - 20px);
+    width:calc(100% / 1.333333333 - 20px);
     margin: 0px 10px 40px 10px;
     // 上右下左
     
@@ -164,6 +164,6 @@ h2{
     text-align: center;
   }
   .btn-primary:hover{
-    background:rgb(107, 140, 137);
+    background:rgb(181, 205, 196);
     color:white;
   }
