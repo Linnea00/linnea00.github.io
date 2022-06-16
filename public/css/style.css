@@ -94,7 +94,7 @@ header > .container > nav > ul > li > a {
 }
 
 .col-9 {
-  width: calc(100% / 1.333333 - 20px);
+  width: calc(100% / 1.333333333 - 20px);
   margin: 0px 10px 40px 10px;
 }
 
@@ -157,6 +157,6 @@ dd > a {
 }
 
 .btn-primary:hover {
-  background: #6b8c89;
+  background: #b5cdc4;
   color: white;
 }
