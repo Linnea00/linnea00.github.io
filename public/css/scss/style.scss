@@ -167,3 +167,38 @@ h2{
     background:rgb(181, 205, 196);
     color:white;
   }
+  .text-primary{
+    color: $primary-color;
+  }
+   // 相對定位-父層
+  .img-wrap{
+    display: block;
+    // background-color: rgb(194, 194, 194);
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .img-overlay{
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  .img-wrap img{
+    vertical-align: top;
+    transition: all .5s;
+  }
+  .img-wrap img:hover{
+    transform: scale(1.5);
+  }
+    // 絕對（？ 相對定位-子層
+.icon-new{
+position: absolute;
+width: 50px; 
+color: white;
+border-radius: 100%;
+left: -25px;
+top: -25px;
+// 下方正中間打法：
+// bottom:-25px;
+// left: 50%;
+// margin-left: -25px;
+background-color: burlywood;
+  }
