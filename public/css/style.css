@@ -160,3 +160,37 @@ dd > a {
   background: #b5cdc4;
   color: white;
 }
+
+.text-primary {
+  color: #008F8F;
+}
+
+.img-wrap {
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.img-overlay {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.img-wrap img {
+  vertical-align: top;
+  transition: all 0.5s;
+}
+
+.img-wrap img:hover {
+  transform: scale(1.5);
+}
+
+.icon-new {
+  position: absolute;
+  width: 50px;
+  color: white;
+  border-radius: 100%;
+  left: -25px;
+  top: -25px;
+  background-color: burlywood;
+}
