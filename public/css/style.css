@@ -74,28 +74,28 @@ header > .container > nav > ul > li > a {
 }
 
 .col-3 {
-  width: calc(100% / 4 - 20px);
-  margin: 0px 10px 40px 10px;
+  width: calc(100% / 4 - 30px);
+  margin: 0px 15px 40px 15px;
 }
 
 .col-4 {
-  width: calc(100% / 3 - 20px);
-  margin: 0px 10px 40px 10px;
+  width: calc(100% / 3 - 30px);
+  margin: 0px 15px 40px 15px;
 }
 
 .col-6 {
-  width: calc(100% / 2 - 20px);
-  margin: 0px 10px 40px 10px;
+  width: calc(100% / 2 - 30px);
+  margin: 0px 15px 40px 15px;
 }
 
 .col-8 {
-  width: calc(100% / 1.5- 20px);
-  margin: 0px 10px 40px 10px;
+  width: calc(100% / 1.5- 30px);
+  margin: 0px 15px 40px 15px;
 }
 
 .col-9 {
-  width: calc(100% / 1.333333333 - 20px);
-  margin: 0px 10px 40px 10px;
+  width: calc(100% / 1.333333333 - 30px);
+  margin: 0px 15px 40px 15px;
 }
 
 .title a {
@@ -136,6 +136,10 @@ dd > a {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 100%;
+}
+
+.breadcrumb a {
+  color: black;
 }
 
 .w-20 {
@@ -188,6 +192,7 @@ dd > a {
 .icon-new {
   position: absolute;
   width: 50px;
+  line-height: 50px;
   color: white;
   border-radius: 100%;
   left: -25px;
