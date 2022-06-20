@@ -199,3 +199,48 @@ dd > a {
   top: -25px;
   background-color: burlywood;
 }
+
+@media (min-width: 768px) {
+  .icon-menu {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    width: 85%;
+    background-color: blueviolet;
+    float: left;
+  }
+
+  .icon-menu {
+    float: right;
+    width: 15%;
+    display: block;
+    background-color: aquamarine;
+    color: black;
+    line-height: 60px;
+    text-align: center;
+  }
+
+  header > .container > nav {
+    width: 100%;
+    float: left;
+  }
+
+  header > .container > nav > ul {
+    display: block;
+  }
+
+  header > .container > nav > ul > li {
+    width: 100%;
+    text-align: center;
+  }
+
+  header > .container > nav > ul > li > a {
+    display: block;
+  }
+
+  .overflow-hidden {
+    overflow: hidden;
+  }
+}
