@@ -225,6 +225,7 @@ dd > a {
   header > .container > nav {
     width: 100%;
     float: left;
+    display: none;
   }
 
   header > .container > nav > ul {
