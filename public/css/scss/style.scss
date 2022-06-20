@@ -207,3 +207,46 @@ top: -25px;
 background-color: burlywood;
   }
 
+// 超過768px以上執行
+@media(min-width:768px){
+    .icon-menu{
+    display: none;
+    }   
+}// min-width:768px end
+
+// 小於767px以下執行
+@media(max-width:767px){
+    h1{
+        width: 85%;
+        background-color: blueviolet;
+        float: left;
+    }
+    .icon-menu{
+        float: right;
+        width: 15%;
+        display: block;
+        background-color: aquamarine;
+        color: black;
+        line-height: 60px;
+        text-align: center;
+    }
+    
+    header > .container > nav{
+        width: 100%;
+        float: left;
+    }
+    header > .container > nav>ul{
+        display: block;
+    }
+    header > .container > nav>ul>li{
+        width: 100%;
+        text-align: center;
+    }
+    header > .container > nav>ul>li>a{
+        display: block;
+    }
+    .overflow-hidden{
+        overflow: hidden;
+    }
+}// max-width:767px end
+
