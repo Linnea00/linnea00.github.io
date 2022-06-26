@@ -39,6 +39,7 @@ header>.container nav>ul{
     /* justify-content: space-between; */
 }
 header>.container nav>ul>li{
+     // 若置中的話不寫下面這一行
     // margin-right: 30px;
 }
 header>.container nav>ul>li>a{
@@ -79,6 +80,7 @@ header>.container nav>ul>li{
     // margin-right: 20px;
 }
 header>.container nav>ul>li:nth-child(2){
+    margin-right: 210px;
     margin-right: 250px;
 }
 // 置中logo end
@@ -102,10 +104,6 @@ header>.container nav>ul>li:nth-child(2){
 }
 
 }// min-width 768 end
-
-
-
-
 // 針對超過1200視窗寬的優化 start
 // @media (min-width:1200px){
 //     header>.container nav>ul>li{
@@ -320,7 +318,7 @@ dd>a{
         // viewport width
         left:0px;
         // 這一行等二層選單做完之後在打開
-        // left:-100vw;
+        left:-100vw;
         transition: all .3s;
     }
     // 之後搭配javascript要改寫選取器的寫法
